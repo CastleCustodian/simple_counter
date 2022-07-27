@@ -22,7 +22,7 @@ display_count_at = ttk.Label(mainframe, textvariable=count_at)
 display_count_at.grid(column=2, row=1, sticky=(E))
 
 ttk.Button(mainframe, text='Reset', command=reset).grid(column=1, row=2, sticky=(W, S))
-ttk.Button(mainframe, text='Add', command=increment).grid(column=2, row=2, sticky=(E,S))
+ttk.Button(mainframe, text='Count', command=increment).grid(column=2, row=2, sticky=(E,S))
 
 
 for child in mainframe.winfo_children():
